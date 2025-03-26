@@ -19,7 +19,7 @@ include("header.php");
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
@@ -53,7 +53,7 @@ include("header.php");
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-<img src="img/pja1.jpg" style="width: 100%;">
+          <img src="img/pja1.jpg" style="width: 100%;">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p class="font-italic"><b>Mission :</b> To provide technology and services to farmers, merchants, and farm labourers to help them expand their business and provide them with a wider market. And to improve the present farming processes and to provide knowledge about recent agricultural issues.
@@ -86,7 +86,7 @@ echo mysqli_num_rows($qsql);
             <p>Farmers</p>
           </div>
         <!-- customer -->
-          <div class="col-lg-3 col-4 text-center">
+          <div class="col-lg-3 col-4 text-center"> 
             <span data-toggle="counter-up"><?php
 $sql = "select * from customer";
 $qsql = mysqli_query($con,$sql);
